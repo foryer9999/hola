@@ -3,7 +3,7 @@ const yesBtn = document.querySelector('#yesBtn');
 yesBtn.addEventListener('click',function () {
 
     // Número de teléfono de WhatsApp (incluyendo el código de país)
-    const phoneNumber = '59160499541'
+    const phoneNumber = '591 n cel'
     // Reemplaza con el número de WhatsApp deseado
 
     // Mensaje predeterminado
