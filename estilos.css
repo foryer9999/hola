@@ -3,29 +3,15 @@
 }
 
 .contenedor{
+    background: rgb(228, 106, 106);
     width: 100vw;
     height: 100vh;
     text-align: center;
-    overflow: hidden; /* Para ocultar partes del video que excedan el contenedor */
-    position: relative; /* Importante para posicionar correctamente el video */
-}
-
-.contenedor video {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    min-width: 100%;
-    min-height: 100%;
-    width: auto;
-    height: auto;
-    z-index: -1; /* Para asegurarse de que el video esté detrás de otros elementos */
 }
 
 p{
     font-size: xx-large;
     padding: 15%;
-    color: #ffffff;
 }
 
 button{
